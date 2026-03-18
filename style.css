@@ -247,7 +247,7 @@ body .container{
 }
 
 .container {
-    background-color: #fff;
+    background-color: #050000;
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -274,3 +274,101 @@ body .container{
 .container:focus:active:hover {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }   
+
+.biography {
+    font-size: 16px;
+    color: hsl(210, 10%, 40%);
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.biography:hover {
+    color: hsl(210, 10%, 35%);
+}   
+
+.biography:focus {
+    outline: none;
+    color: hsl(210, 10%, 35%);
+}
+.biography:active {
+    color: hsl(210, 10%, 35%);
+}
+
+.biography:focus:active {
+    color: hsl(210, 10%, 35%);
+}   
+.biography:focus:active:hover {
+    color: hsl(210, 10%, 35%);
+}   
+ .biography:visited {
+    color: hsl(210, 10%, 40%);
+}   
+
+.biography:visited:hover {
+    color: hsl(210, 10%, 35%);
+}
+
+.biography:visited:focus {
+    outline: none;
+    color: hsl(210, 10%, 35%);
+}   
+
+.biography:visited:active {
+    color: hsl(210, 10%, 35%);
+}
+.biography:visited:focus:active {
+    color: hsl(210, 10%, 35%);
+}
+.biography:visited:focus:active:hover {
+    color: hsl(210, 10%, 35%);
+}   
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.name:hover {
+    color: hsl(210, 10%, 30%);
+}   
+.name:focus {
+    outline: none;
+    color: hsl(210, 10%, 30%);
+}   
+.name:active {
+    color: hsl(210, 10%, 30%);
+}   
+.name:focus:active {
+    color: hsl(210, 10%, 30%);
+}
+.name:focus:active:hover {
+    color: hsl(210, 10%, 30%);
+}
+
+.location {
+    font-size: 14px;
+    color: hsl(65, 93%, 54%);
+    margin-bottom: 20px;
+}   
+
+.location:hover {
+    color: hsl(210, 10%, 45%);
+}   
+.location:focus {
+    outline: none;
+    color: hsl(210, 10%, 45%);
+}   
+
+.location:active {
+    color: hsl(210, 10%, 45%);
+}   
+.location:focus:active {
+    color: hsl(210, 10%, 45%);
+}
+.location:focus:active:hover {
+    color: hsl(210, 10%, 45%);
+}
+
+
