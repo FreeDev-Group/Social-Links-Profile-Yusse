@@ -1,0 +1,388 @@
+<<<<<<< Updated upstream
+=======
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: white;
+    font-size: 18px;
+    color: hsl(210, 10%, 33%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    
+}
+body .container{
+    background-color: black
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 105vh;
+}
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}       
+
+.profile-picture-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 35px;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}   
+.location {
+    font-size: 14px;
+    color: hsl(210, 10%, 50%);
+    margin-bottom: 20px;
+}
+.biography {
+    font-size: 16px;
+    color: hsl(210, 10%, 40%);
+    margin-bottom: 30px;
+}   
+.social-links a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}   
+.social-links a:hover {
+    background-color: hsl(210, 46%, 90%);
+}
+
+.attribution {
+    font-size: 12px;
+    color: hsl(210, 10%, 50%);
+    margin-top: 20px;
+}   
+.attribution a {
+    color: hsl(210, 10%, 50%);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+
+.button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: hsl(210, 46%, 95%);
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}   
+.button:hover {
+    background-color: hsl(210, 46%, 90%);
+}   
+
+.GitHub {
+    background-color: #333;
+    color: #fff;
+}   
+.GitHub:hover {
+    background-color: #555;
+}
+
+.Mentor {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.Mentor:hover {
+    background-color: #005582;
+}   
+
+.LinkedIn {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.LinkedIn:hover {
+    background-color: #005582;
+}
+
+.Twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}
+
+.Twitter:hover {
+    background-color: #0d95e8;
+}
+
+.Instagram {
+    background-color: #e1306c;
+    color: #fff;
+}
+
+.Instagram:hover {
+    background-color: #c13584;
+}
+
+.profile-picture-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}       
+.social-links a {
+    width: 100%;
+    max-width: 200px;
+}   
+.social-links a:hover {
+    background-color: hsl(210, 46%, 90%);
+}   
+
+.social-links .GitHub {
+    background-color: #333;
+    color: #fff;
+}
+
+.social-links .GitHub:hover {
+    background-color: #555;
+}       
+
+.social-links .Mentor {
+    background-color: #0077b5;
+    color: #fff;
+}   
+
+.social-links .Mentor:hover {
+    background-color: #005582;
+}   
+
+.social-links .LinkedIn {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.social-links .LinkedIn:hover {
+    background-color: #005582;
+}   
+
+.social-links .Twitter {
+    background-color: #1da1f2;
+    color: #fff;
+}   
+
+.social-links .Twitter:hover {
+    background-color: #0d95e8;
+}
+
+.social-links .Instagram {
+    background-color: #e1306c;
+    color: #fff;
+}
+
+.social-links .Instagram:hover {
+    background-color: #c13584;
+}
+
+.attribution {
+    font-size: 12px;
+    color: hsl(210, 10%, 50%);
+    margin-top: 20px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(210, 10%, 50%);
+    text-decoration: none;
+}   
+
+.attribution a:hover {
+    text-decoration: underline;
+}   
+
+.attribution a:visited {
+    color: hsl(210, 10%, 50%);
+}   
+
+.attribution a:visited:hover {
+    text-decoration: underline;
+}
+
+.attribution a:active {
+    color: hsl(210, 10%, 50%);
+}   
+
+.attribution a:active:hover {
+    text-decoration: underline;
+}
+
+.attribution a:focus {
+    color: hsl(210, 10%, 50%);
+}   
+
+.attribution a:focus:hover {
+    text-decoration: underline;
+}   
+
+.attribution a:focus:active {
+    color: hsl(210, 10%, 50%);
+}
+
+.attribution a:focus:active:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background-color: #050000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 100vh;
+
+}   
+
+.container:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container:focus {
+    outline: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.container:active {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container:focus:active {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.container:focus:active:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}   
+
+.biography {
+    font-size: 12px;
+    color: hsl(210, 10%, 40%);
+    margin-bottom: 7px;
+    line-height: 1.5;
+}
+
+.biography:hover {
+    color: hsl(210, 10%, 35%);
+}   
+
+.biography:focus {
+    outline: none;
+    color: hsl(210, 10%, 35%);
+}
+.biography:active {
+    color: hsl(210, 10%, 35%);
+}
+
+.biography:focus:active {
+    color: hsl(210, 10%, 35%);
+}   
+.biography:focus:active:hover {
+    color: hsl(210, 10%, 35%);
+}   
+ .biography:visited {
+    color: hsl(210, 10%, 40%);
+}   
+
+.biography:visited:hover {
+    color: hsl(210, 10%, 35%);
+}
+
+.biography:visited:focus {
+    outline: none;
+    color: hsl(210, 10%, 35%);
+}   
+
+.biography:visited:active {
+    color: hsl(210, 10%, 35%);
+}
+.biography:visited:focus:active {
+    color: hsl(210, 10%, 35%);
+}
+.biography:visited:focus:active:hover {
+    color: hsl(210, 10%, 35%);
+}   
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: hsl(210, 10%, 33%);
+}
+
+.name:hover {
+    color: hsl(210, 10%, 30%);
+}   
+.name:focus {
+    outline: none;
+    color: hsl(210, 10%, 30%);
+}   
+.name:active {
+    color: hsl(210, 10%, 30%);
+}   
+.name:focus:active {
+    color: hsl(210, 10%, 30%);
+}
+.name:focus:active:hover {
+    color: hsl(210, 10%, 30%);
+}
+
+.location {
+    font-size: 14px;
+    color: hsl(65, 93%, 54%);
+    margin-bottom: 20px;
+}   
+
+.location:hover {
+    color: hsl(210, 10%, 45%);
+}   
+.location:focus {
+    outline: none;
+    color: hsl(210, 10%, 45%);
+}   
+
+.location:active {
+    color: hsl(210, 10%, 45%);
+}   
+.location:focus:active {
+    color: hsl(210, 10%, 45%);
+}
+.location:focus:active:hover {
+    color: hsl(210, 10%, 45%);
+}
+
+
+>>>>>>> Stashed changes
