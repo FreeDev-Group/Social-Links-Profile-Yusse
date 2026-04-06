@@ -1,7 +1,16 @@
 
+### Overview
+
+User will be able to view: 
+My screenshot : (<img src="./assets/images/My social link.png">)
+
+
 ### What I learned 
 I learned how to make a responsive web development, to structure clean and readable HTML using meaningful class names. I also practiced organizing my CSS for better clarity and maintaining a consistent design system.This project helped me improve the way I center elements on a page.
 
+## 
+
+I 
 
 ## Author
 my website : https://freedev-group.github.io/Social-Links-Profile-Yusse/ 
